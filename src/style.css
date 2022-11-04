@@ -1,0 +1,83 @@
+body {
+  background-color: cadetblue !important;
+}
+
+.App {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: auto;
+  max-width: 100%;
+  transform: translate(-50%, -50%);
+}
+.App .TodoiTitem {
+  position: relative;
+  top: 50%;
+}
+
+.App .container_list {
+  display: flex;
+  flex-direction: column;
+}
+.App span {
+  font-size: 21px;
+  margin: 5px;
+  border-radius: 2px;
+  color: aliceblue;
+}
+
+.App .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #555a5a;
+  align-items: center;
+  margin: 3px;
+  border: black 2px solid;
+}
+.App .item button {
+  background-color: #9e9e9e;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px;
+  color: white;
+  transition: all 0.2s;
+}
+
+.App .item button:hover {
+  color: #555a5a;
+  background-color: aliceblue;
+}
+.App .inputs input {
+  width: 317px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.App .inputs .btn {
+  padding: 10px;
+  background: #555a5a;
+  width: 35%;
+  margin-top: 22px;
+  color: aliceblue;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.App .inputs .btn:hover {
+  color: #555a5a;
+  background-color: aliceblue;
+}
+
+.App .inputs {
+  margin-top: 53px;
+}
+.App .inputs .serch {
+  padding: 5px;
+  border: none;
+  border-bottom: #555a5a 2px solid;
+  background: none;
+  border-right: 2px #555a5a solid;
+}
